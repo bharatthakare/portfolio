@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#151312" />
+    <meta
+      name="description"
+      content="Bharat Thakare — MCA student, aspiring software engineer, and curious builder."
+    />
+    <title>Bharat Thakare — Software Engineer in the Making</title>
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="page-grain" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <nav class="navbar" aria-label="Main navigation">
+        <a class="brand" href="#home" aria-label="Bharat home"
+          >B T<span>.</span></a
+        >
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+          aria-controls="navLinks"
+        >
+          <span></span><span></span>
+        </button>
+        <div class="nav-links" id="navLinks">
+          <a href="#projects">Projects</a>
+          <a href="#journey">Journey</a>
+          <a href="#toolkit">Toolkit</a>
+          <a href="#connect">Connect</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <button
+          class="theme-toggle"
+          id="themeToggle"
+          type="button"
+          aria-label="Switch to light theme"
+          title="Toggle theme"
+        >
+          ☼
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <aside class="profile-card" aria-label="About Bharat">
+          <div class="portrait-wrap">
+            <img
+              src="images/Bharat.png"
+              alt="Bharat Thakare"
+              class="profile-photo">
+          </div>
+          <h2 style="font-size: 39px;">Bharat Thakare</h2>
+          <span class="profile-mark">✦</span>
+          <p>
+            A curious MCA student learning to turn small ideas into useful
+            things.
+          </p>
+          <div class="social-dots" aria-label="Areas of interest">
+            <span title="Development">⌘</span><span title="Learning">↗</span
+            ><span title="Creative work">✳</span
+            ><span title="Problem solving">◈</span>
+          </div>
+          <div class="profile-foot">
+            <span class="status-dot"></span> Maharashtra, India
+          </div>
+        </aside>
+
+        <div class="hero-main">
+          <p class="eyebrow">
+            <span class="status-dot"></span> MCA STUDENT · ASPIRING DEVELOPER
+          </p>
+          <h1>SOFTWARE<br /><span>DEVELOPER</span></h1>
+          <p class="hero-copy">
+            I’m Bharat — learning the craft of building thoughtful digital
+            experiences, one line of code and one project at a time.
+          </p>
+          <div class="stats">
+            <div>
+              <strong>+03</strong><span>YEARS OF<br />COMPUTER SCIENCE</span>
+            </div>
+            <div>
+              <strong>+06</strong><span>CORE SKILLS<br />IN PROGRESS</span>
+            </div>
+            <div>
+              <strong>∞</strong><span>THINGS LEFT<br />TO LEARN</span>
+            </div>
+          </div>
+          <div class="feature-cards">
+            <a class="feature-card feature-orange" href="#projects">
+              <span class="feature-icon">⌘</span>
+              <span class="feature-title">CODE, LEARN,<br />REPEAT.</span>
+              <span class="feature-arrow">↗</span>
+              <span class="scribble scribble-orange" aria-hidden="true"></span>
+            </a>
+            <a class="feature-card feature-lime" href="#toolkit">
+              <span class="feature-icon">▣</span>
+              <span class="feature-title"
+                >JAVA, PYTHON,<br />WEB & DATABASES.</span
+              >
+              <span class="feature-arrow">↗</span>
+              <span class="scribble scribble-lime" aria-hidden="true"></span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section content-section" id="projects">
+        <div class="section-title">
+          <p class="eyebrow">A FEW THINGS I'M BUILDING</p>
+          <h2>RECENT<br /><span>PROJECTS</span></h2>
+        </div>
+        <div class="project-list">
+          <a class="project-row" href="#contact">
+            <div class="project-thumb thumb-purple">
+              <span>AI</span><i>✳</i>
+            </div>
+            <div class="project-info">
+              <h3>
+                Kisan AI <span class="project-type">Concept / innovation</span>
+              </h3>
+              <p>
+                Exploring how AI could make useful information more accessible
+                for farmers.
+              </p>
+            </div>
+            <span class="row-arrow">↗</span>
+          </a>
+          <a class="project-row" href="#home">
+            <div class="project-thumb thumb-green">
+              <span>&lt;/&gt;</span><i>01</i>
+            </div>
+            <div class="project-info">
+              <h3>
+                Personal Portfolio
+                <span class="project-type">HTML · CSS · JS</span>
+              </h3>
+              <p>
+                A personal corner of the internet for my learning journey and
+                work.
+              </p>
+            </div>
+            <span class="row-arrow">↗</span>
+          </a>
+          <a class="project-row" href="#contact">
+            <div class="project-thumb thumb-red"><span>DSA</span><i>02</i></div>
+            <div class="project-info">
+              <h3>
+                Programming Practice
+                <span class="project-type">Python · Java</span>
+              </h3>
+              <p>
+                Small exercises to sharpen logic, fundamentals, and
+                problem-solving.
+              </p>
+            </div>
+            <span class="row-arrow">↗</span>
+          </a>
+        </div>
+        <p class="section-footnote">
+          More projects will find their way here as I build, test, and learn.
+        </p>
+      </section>
+
+      <section class="section content-section" id="journey">
+        <div class="section-title">
+          <p class="eyebrow">THE ROAD SO FAR</p>
+          <h2>MY LEARNING<br /><span>JOURNEY</span></h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-date">01 / FOUNDATION</span>
+            <div>
+              <h3>12th Standard</h3>
+              <p>Built the foundation for the next chapter in my education.</p>
+              <span class="timeline-meta">Completed</span>
+            </div>
+            <span class="row-arrow">↗</span>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-date">02 / UNDERGRADUATE</span>
+            <div>
+              <h3>B.Sc. Computer Science</h3>
+              <p>
+                R. A. College, Washim — learned core computer science concepts
+                and started writing code.
+              </p>
+              <span class="timeline-meta">Completed</span>
+            </div>
+            <span class="row-arrow">↗</span>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-date">03 / POSTGRADUATE</span>
+            <div>
+              <h3>Master of Computer Applications</h3>
+              <p>
+                ICEM, Pune - Growing my foundation in programming, databases, software
+                development, and problem-solving.
+              </p>
+              <span class="timeline-meta current">Currently Pursuing</span>
+            </div>
+            <span class="row-arrow" >↗</span>
+          </article>
+        </div>
+        <div class="journey-note">
+          <span class="note-mark">✳</span>
+          <p>
+            <strong>Still in progress.</strong><br />I’m not claiming to know it
+            all. I’m here to keep learning, make things, and get a little better
+            every week.
+          </p>
+        </div>
+      </section>
+
+      <section class="section content-section" id="toolkit">
+        <div class="section-title">
+          <p class="eyebrow">TOOLS IN MY WORKFLOW</p>
+          <h2>MY<br /><span>TOOLKIT</span></h2>
+        </div>
+        <div class="tool-grid">
+          <div class="tool-item">
+            <span class="tool-logo logo-html">&lt;/&gt;</span>
+            <div>
+              <h3>HTML & CSS</h3>
+              <p>Structure and styling</p>
+            </div>
+          </div>
+          <div class="tool-item">
+            <span class="tool-logo logo-js">JS</span>
+            <div>
+              <h3>JavaScript</h3>
+              <p>Web interactions</p>
+            </div>
+          </div>
+          <div class="tool-item">
+            <span class="tool-logo logo-python">Py</span>
+            <div>
+              <h3>Python</h3>
+              <p>Logic and practice</p>
+            </div>
+          </div>
+          <div class="tool-item">
+            <span class="tool-logo logo-java">J</span>
+            <div>
+              <h3>Java</h3>
+              <p>Programming basics</p>
+            </div>
+          </div>
+          <div class="tool-item">
+            <span class="tool-logo logo-db">▤</span>
+            <div>
+              <h3>DBMS / SQL</h3>
+              <p>Data fundamentals</p>
+            </div>
+          </div>
+          <div class="tool-item">
+            <span class="tool-logo logo-git">⌘</span>
+            <div>
+              <h3>Git & GitHub</h3>
+              <p>Version control</p>
+            </div>
+          </div>
+          <div class="tool-item">
+            <span class="tool-logo logo-vscode">⌁</span>
+            <div>
+              <h3>VS Code</h3>
+              <p>Everyday editor</p>
+            </div>
+          </div>
+          <div class="tool-item">
+            <span class="tool-logo logo-ai">✳</span>
+            <div>
+              <h3>AI tools</h3>
+              <p>Research and ideation</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+      <section class="section content-section" id="connect">
+        <div class="section-title">
+          <p class="eyebrow">FIND ME ON THE INTERNET</p>
+          <h2>LET'S<br /><span>CONNECT</span></h2>
+        </div>
+
+        <div class="thought-list">
+          <a class="thought-row social-row"
+            href="https://www.linkedin.com/in/bharatthakare"
+            target="_blank" rel="noopener noreferrer">
+            <div>
+              <h3>LinkedIn</h3>
+              <p>Connect with me professionally and explore my journey.</p>
+              <span class="thought-meta">01 — PROFESSIONAL NETWORK</span>
+            </div>
+            <span class="row-arrow">↗</span>
+          </a>
+
+          <a class="thought-row social-row"
+            href="https://github.com/bharatthakare"
+            target="_blank" rel="noopener noreferrer">
+            <div>
+              <h3>GitHub</h3>
+              <p>Explore my code, projects, and things I'm learning.</p>
+              <span class="thought-meta">02 — CODE & PROJECTS</span>
+            </div>
+            <span class="row-arrow">↗</span>
+          </a>
+
+          <a class="thought-row social-row"
+            href="https://x.com/bharatthakare_"
+            target="_blank" rel="noopener noreferrer">
+            <div>
+              <h3>X / Twitter</h3>
+              <p>Follow my thoughts, updates, and technology interests.</p>
+              <span class="thought-meta">03 — THOUGHTS & UPDATES</span>
+            </div>
+            <span class="row-arrow">↗</span>
+          </a>
+
+          <a class="thought-row social-row"
+            href="https://www.instagram.com/bharatthakaree/"
+            target="_blank" rel="noopener noreferrer">
+            <div>
+              <h3>Instagram</h3>
+              <p>A little glimpse of my life beyond coding.</p>
+              <span class="thought-meta">04 — LIFE & MOMENTS</span>
+            </div>
+            <span class="row-arrow">↗</span>
+          </a>
+
+          <a class="thought-row social-row"
+            href="mailto:bharatthakare@zohomail.in">
+            <div>
+              <h3>Email</h3>
+              <p>Have an idea, opportunity, or project? Let's talk.</p>
+              <span class="thought-meta">05 — GET IN TOUCH</span>
+            </div>
+            <span class="row-arrow">↗</span>
+          </a>
+        </div>
+      </section>
+
+
+      <section class="section contact-section" id="contact">
+        <div class="section-title">
+          <p class="eyebrow">HAVE SOMETHING IN MIND?</p>
+          <h2>LET'S WORK<br /><span>TOGETHER</span></h2>
+          <p class="contact-intro">
+            A project idea, a learning opportunity, or just a good conversation
+            — my inbox is open.
+          </p>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-pair">
+            <label
+              >Name<input
+                type="text"
+                name="name"
+                placeholder="Bharat Thakare"
+                required
+            /></label>
+            <label
+              >Email<input
+                type="email"
+                name="email"
+                placeholder="bharatthakare@zohomail.in"
+                required
+            /></label>
+          </div>
+          <label
+            >What is this about?
+            <select name="topic" required>
+              <option value="" disabled selected>Select a topic</option>
+              <option>Project collaboration</option>
+              <option>Internship / opportunity</option>
+              <option>College / learning</option>
+              <option>Just saying hello</option>
+            </select>
+          </label>
+          <label
+            >Message<textarea
+              name="message"
+              rows="4"
+              placeholder="Tell me a little about it..."
+              required
+            ></textarea>
+          </label>
+          <button class="submit-button" type="submit">
+            Send a message <span>↗</span>
+          </button>
+          <p class="form-note">
+            This opens your email app with the message ready to send.
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="footer-brand" href="#home">B<span>.</span></a>
+      <p>Made with Love &#128156.</p>
+      <span>© <span id="year"></span> Bharat Thakare</span>
+    </footer>
+  </body>
+</html>
