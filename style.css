@@ -175,7 +175,7 @@ a {
   padding: 0;
   border-radius: 10px;
   overflow: hidden;
-  background: #a72a08;
+  background: #53009b;
 }
 
 /* PROFILE IMAGE */
@@ -212,7 +212,7 @@ a {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background: linear-gradient(140deg, #f8f7f3 0 15%, #b6320b 15% 100%);
+  background: linear-gradient(140deg, #f8f7f3 0 15%, #53009b 15% 100%);
 }
 .portrait-art::before {
   content: "";
@@ -428,7 +428,7 @@ a {
   background-image: linear-gradient(
     145deg,
     transparent 48%,
-    #9f2d13 49%,
+    #53009b 49%,
     transparent 51%
   );
 }
@@ -505,7 +505,7 @@ a {
   color: #123d32;
 }
 .thumb-red {
-  background: linear-gradient(140deg, #ff5449, #7e1018);
+  background: linear-gradient(140deg, #53009b, #7e1018);
 }
 .project-info h3,
 .timeline-item h3,
@@ -625,7 +625,7 @@ a {
   font-size: 11px;
 }
 .logo-html {
-  color: #ef623b;
+  color: #53009b;
 }
 .logo-js {
   background: #f2d84a;
@@ -1385,10 +1385,10 @@ body {
 }
 
 .social-row:hover h3 {
-  color: #ff653e;
+  color: #53009b;
 }
 
 .social-row:focus-visible {
-  outline: 2px solid #ff653e;
+  outline: 2px solid #53009b;
   outline-offset: 4px;
 }
